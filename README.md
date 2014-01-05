@@ -11,5 +11,9 @@ nand2tetris solutions
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Ball.jack>Ball.jack</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Opponent.jack>Opponent.jack</a> </pre>
 
+<strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4>ex 4</a>
+</strong> 
+<pre><pre> <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4/chess>Chess</a> </pre></pre>
 
 
