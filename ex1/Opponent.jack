@@ -1,0 +1,110 @@
+/** Class Opponent that represents opponent
+ * Written by Sergey Korchagin 
+ */
+
+class Opponent{
+
+
+    // the location on the screen (in pixels)
+    field int x, y;
+	field int size;  //Diameter size
+	field boolean flag;   // flag for while in moveOp method
+	
+	
+    
+
+    // Constructs a new Opponent with a given initial location
+     
+    constructor Opponent new(int Ax, int Ay, int Asize) {    	
+	let x = Ax;		
+	let y = Ay;
+	let size = Asize;
+    let flag = false;
+        do show();
+
+        return this;
+    
+    }
+	
+	
+	//Hides opponent
+	method void hide() {
+        do Screen.setColor(false);
+		do draw();
+        return;
+    }
+	//Shows opponent
+	method void show() {
+        do Screen.setColor(true);
+		do draw();
+        return;
+    }
+	//Dispose method
+	 method void dispose() {
+        do Memory.deAlloc(this);
+        return;
+    }
+	// Draws the opponent rectangle
+    method void draw() {
+	do Screen.drawRectangle(x, y, x + size, y + size);
+	return;
+    }
+	
+	method int getX() {
+        return x;
+    }
+	
+	
+	//Method for mooving opponent rectangle
+	method void moveOpp()
+	{
+	//var boolean flag;
+	var char keyb;
+	//let flag = Aflag;
+	while(~(flag))
+	{
+	
+		if(y>1 )
+		{
+		do moveUp();
+		}
+		else
+		{
+			
+			if(y=1)
+			{
+			let y=242;
+			}
+		}
+		
+		let keyb = Keyboard.keyPressed();
+		if(keyb = 130) 
+		{
+		let flag = true;
+		}
+		if(keyb = 132) 
+		{
+		let flag = true;
+		}
+	
+	}//while
+	return;
+	}
+	
+	
+	//moving opponent rectangle up
+	method void moveUp()
+	{
+	// if (y > 1) {
+            do Screen.setColor(false);
+            do Screen.drawRectangle(x, (y + size) - 1, x + size, y + size);
+            let y = y - 1;
+            do Screen.setColor(true);
+            do Screen.drawRectangle(x, y, x + size, y + 1);
+			//}
+			return;
+	
+	}
+	
+	
+}//Opponent

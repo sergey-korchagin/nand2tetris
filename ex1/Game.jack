@@ -1,0 +1,91 @@
+/** Class Game
+ * Written By Sergey Korchagin
+ */
+class Game{
+
+	static Game instance;
+	field Ball ball;
+	field Opponent opponent;
+	//field Opponent opponent2;
+	field boolean exit;
+	
+	 constructor Game new() {
+	do Output.printString("Press RIGHT to shot and LEFT to back, ESC for Exit.");
+	
+	let ball = Ball.new(100, 100);
+	let opponent = Opponent.new(475, 100,10);
+	
+	let exit = false;
+	return this ;
+	}
+	
+	
+	function void newInstance() {
+        let instance = Game.new();
+        return;
+    }
+    
+
+    function Game getInstance() {
+           return instance;
+    }  
+	
+	
+	method void dispose() {
+		do ball.dispose();
+		do opponent.dispose();
+        do Memory.deAlloc(this);
+        return;
+		}
+		
+		
+	method void run()
+	{
+	var char keyb;
+	
+		while(~exit)
+		{
+			
+			do opponent.moveOpp();
+			let keyb = Keyboard.keyPressed();
+			
+			
+			if (keyb = 130)   //Left
+			{
+			do ball.moveBallLeft();
+			}
+			else{	
+				if(keyb = 132)  //Right
+				{
+				do ball.moveBallRight();
+				}
+			}
+				//do hit();  //NEED to check !!
+			
+				if(keyb = 140)
+				{
+				let exit = true;
+				do Output.println();
+				do Output.printString("Thank you for Game. Bye");
+				}
+			
+		}
+		return; 
+	}
+	
+	//Checks if hit
+	method void hit()
+	{
+	var int b, o;
+	let b = ball.getX();  //ball's X
+	let o = opponent.getX(); //opponent's X
+	
+		if(o=b)
+		{
+		do Output.printString("Good");
+		do Output.println();
+		}
+	return ;
+	}
+	
+} //Class Game

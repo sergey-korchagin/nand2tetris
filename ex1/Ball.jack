@@ -1,0 +1,75 @@
+/** Class Ball that represents Bullet
+* Written by Sergey Kochagin
+*/
+
+class Ball{
+
+    field int x, y;
+	
+	//Constructor for ball object
+    constructor Ball new(int Ax, int Ay) {    	
+	let x = Ax;		
+	let y = Ay;
+	
+        do show();
+
+        return this;
+    
+    }
+	// The show method for draw the ball
+	method void show() {
+        do Screen.setColor(true);
+	do draw();
+        return;
+    }
+	//Dispose method
+	 method void dispose() {
+        do Memory.deAlloc(this);
+        return;
+    }
+	//The Draw method
+    method void draw() {
+	
+            do Screen.drawCircle(x,y,7);
+	return;
+    }
+
+	// Hiding ball
+    method void hide() {
+        do Screen.setColor(false);
+	do draw();
+        return;
+    }
+	
+	//Get X method
+	method int getX() {
+        return x;
+    }
+	// Moves Ball Left
+	method void moveBallLeft()
+	{
+		
+			do Screen.setColor(false);
+            do Screen.drawCircle(x, (y + 7) - 1, 7);
+            let x = 100;
+            do Screen.setColor(true);
+            do Screen.drawCircle(x, y,7);
+        return;
+    }
+	
+    // making shot
+	method void moveBallRight()
+	{
+		
+			do Screen.setColor(false);
+            do Screen.drawCircle(x, (y + 7) - 1, 7);
+            let x = 475;
+            do Screen.setColor(true);
+            do Screen.drawCircle(x, y,7);
+		
+		
+        return;
+    }	 
+            
+
+}// Ball Class

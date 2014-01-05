@@ -1,0 +1,15 @@
+/*Class Main, represents game, shooter, user must shoot in moving rectangle
+ * Written by Sergey Korchagin id: 323744326
+ */
+
+
+	class Main {
+	// Starts game
+	function void main() {
+	    var Game game;
+		do Game.newInstance();
+        let game = Game.getInstance();
+        do game.run();
+		return;
+    }
+} // Main
