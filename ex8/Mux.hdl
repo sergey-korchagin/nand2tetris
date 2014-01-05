@@ -1,0 +1,27 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/01/Mux.hdl
+
+/** 
+ * Multiplexor. If sel==1 then out=b else out=a.
+ */
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+		Nand(a = sel,  b = b,out = x);
+		Nand(a=x, b=x, out=out1);
+		
+		Nand(a=sel, b=sel, out=outNs);
+		
+		Nand(a = a,  b = outNs,out = y);
+		Nand(a=y, b=y, out=out2);
+		
+		Nand(a = out1, b=out1, out = x1);
+	    Nand(a=out2, b=out2, out = y1);
+	    Nand(a=x1, b=y1, out = out);
+		
+}

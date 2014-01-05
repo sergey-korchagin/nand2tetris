@@ -1,0 +1,51 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/01/DMux4Way.hdl
+
+/**
+ * 4-way demultiplexor.  
+ * {a,b,c,d} = {in,0,0,0} if sel==00
+ *             {0,in,0,0} if sel==01
+ *             {0,0,in,0} if sel==10
+ *             {0,0,0,in} if sel==11
+ */
+
+
+CHIP DMux4Way {
+
+
+    IN in, sel[2];
+
+    OUT a, b, c, d;
+
+    PARTS:
+    // Put your code here.
+	
+		Nand(a=sel[0], b=sel[0], out=outNS0);
+		Nand(a=sel[1], b=sel[1], out=outNS1);
+	
+		Nand(a = outNS0,  b = outNS1,out = x0);
+		Nand(a=x0, b=x0, out=t1);
+		
+		Nand(a = outNS1,  b = sel[0],out = x1);
+		Nand(a=x1, b=x1, out=t2);	
+		
+		Nand(a = sel[1],  b = outNS0,out = x2);
+		Nand(a=x2, b=x2, out=t3);
+		
+		Nand(a = sel[0],  b =sel[1],out = x3);
+		Nand(a=x3, b=x3, out=t4);
+		
+		Nand(a = t1,  b = in,out = y0);
+		Nand(a=y0, b=y0, out=a);
+		
+		Nand(a = t2,  b = in,out = y1);
+		Nand(a=y1, b=y1, out=b);
+		
+		Nand(a = t3,  b = in,out = y2);
+		Nand(a=y2, b=y2, out=c);
+		
+		Nand(a = t4,  b = in,out = y3);
+		Nand(a=y3, b=y3, out=d);
+}
