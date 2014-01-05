@@ -16,8 +16,5 @@ nand2tetris solutions
 </strong> 
 <pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4/chess>Chess</a> </pre>
-
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Chess.asm>Chess.asm</a> </pre>
-
-
 </pre>
