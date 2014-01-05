@@ -27,3 +27,9 @@ nand2tetris solutions
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/Code.java>Code</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/Parser.java>Parser</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/SymbolTable.java>SymbolTable</a> </pre>
+
+https://github.com/sergey-korchagin/nand2tetris/tree/master/ex8
+
+<strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex8>ex 8</a>
+</strong> 
