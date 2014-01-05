@@ -4,7 +4,7 @@ nand2tetris
 nand2tetris solutions
 
 <strong> 
-</strong> <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex1>ex 1</a>
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex1>ex 1</a>
 </strong> 
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Main.jack>Main.jack</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Game.jack>Game.jack</a> </pre>
