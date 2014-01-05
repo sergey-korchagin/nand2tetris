@@ -42,7 +42,10 @@ nand2tetris solutions
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux.hdl>Mux</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not.hdl>Not</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not16.hdl>Not16</a> </pre>
-
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or.hdl>Or</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or16.hdl>Or16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or8Way.hdl>Or8Way</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Xor.hdl>Xor</a> </pre>
 
 
 
