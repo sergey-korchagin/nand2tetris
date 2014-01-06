@@ -27,3 +27,26 @@ nand2tetris solutions
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/Code.java>Code</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/Parser.java>Parser</a> </pre>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/SymbolTable.java>SymbolTable</a> </pre>
+
+
+<strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex8>ex 8</a>
+</strong> 
+
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And.hdl>And</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And16.hdl>And16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux.hdl>DMux</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux4Way.hdl>DMux4Way</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux8Way.hdl>DMux8Way</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux4Way16.hdl>Mux4Way16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux.hdl>Mux</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not.hdl>Not</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not16.hdl>Not16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or.hdl>Or</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or16.hdl>Or16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or8Way.hdl>Or8Way</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Xor.hdl>Xor</a> </pre>
+
+
+
+
