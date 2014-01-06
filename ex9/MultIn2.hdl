@@ -1,0 +1,22 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/02/ALU.hdl
+
+/**
+ *You should implement a chip that multiplies 16-bit number in 2 in one code line. 
+ *You should not deal with overflow
+ */
+
+
+
+  
+CHIP MultIn2{
+    IN  in[16];
+    OUT out[16];
+
+    PARTS:
+    // Put your code here.
+	// actually adds input number to himself
+	Add16(a=in, b=in, out=out);
+}
