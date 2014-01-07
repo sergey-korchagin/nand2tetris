@@ -62,8 +62,9 @@ Nand2Tetris Solutions
 </ul></li>
 	
 		</li>
-	<li><a href=#>Menu 5</a>
+	<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10>ex10</a>
 		<ul class="submenu">
+		<ul class="submenu"> <li><a href=#https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/a>A</li></ul>
 			<li><a href=#>Sudmenu 5</a></li>
 			<li><a href=#>Sudmenu 5</a></li>
 			<li><a href=#>Sudmenu 5</a></li>
