@@ -4,19 +4,6 @@ nand2tetris
 nand2tetris solutions
 
 
-<pre>  </pre>
-<pre> </pre>
-<pre>  </pre>
-<pre>  </pre>
-
-<strong> 
- <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4>ex 4</a>
-</strong> 
-
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Chess.asm>Chess.asm</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Sort.asm>Sort.asm</a> </pre>
-
-
 <strong> 
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex7>ex 7</a>
 </strong> 
@@ -69,10 +56,12 @@ nand2tetris solutions
 	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Opponent.jack>Opponent.jack</a></li>
 		</ul>
 	</li>
-	<li><a href=#>Menu 2</a>
+	<li><strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4>ex 4</a>
+</strong> </a>
 		<ul class="submenu">
-			<li><a href=#>Sudmenu 2</a></li>
-			<li><a href=#>Sudmenu 2</a></li>
+	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Chess.asm>Chess.asm</a> </li>
+	<li> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Sort.asm>Sort.asm</a> </li>
 			<li><a href=#>Sudmenu 2</a></li>
 		</ul>
 	</li>
