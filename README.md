@@ -61,19 +61,11 @@ Nand2Tetris Solutions
 <li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/MultIn2.hdl>MultIn2</a></li>
 </ul></li>
 	
-		</li>
-	<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10>ex10</a>
-	
-		<ul class="submenu"> </li>
-			<li><li><a href=#https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/a>A</li>
-			<li><a href=#>Sudmenu 5</a></li>
-			<li><a href=#>Sudmenu 5</a></li>
-		</ul><
-	</li>
-		</li>
-	<li><a href=#>Menu 5</a>
+<li><strong> 
+<a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10>ex 10</a>
+</strong>
 		<ul class="submenu">
-			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/a>a</a></li>
 			<li><a href=#>Sudmenu 5</a></li>
 			<li><a href=#>Sudmenu 5</a></li>
 		</ul>
