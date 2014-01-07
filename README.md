@@ -52,4 +52,12 @@ nand2tetris solutions
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex9>ex 9</a>
 </strong>
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/ALU.hdl>ALU</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/Add16.hdl>Add16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/FullAdder.hdl>FullAdder</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/HalfAdder.hdl>HalfAdder</a> </pre>
+
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/Inc16.hdl>Inc16</a> </pre>
+<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/MultIn2.hdl>MultIn2</a> </pre>
+
+
 
