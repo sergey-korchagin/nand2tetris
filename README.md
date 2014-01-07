@@ -60,4 +60,41 @@ nand2tetris solutions
 <pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex9/MultIn2.hdl>MultIn2</a> </pre>
 
 
+<ul class="menu">
+	<li><a href=#>Menu 1</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 1</a></li>
+			<li><a href=#>Sudmenu 1</a></li>
+			<li><a href=#>Sudmenu 1</a></li>
+		</ul>
+	</li>
+	<li><a href=#>Menu 2</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 2</a></li>
+			<li><a href=#>Sudmenu 2</a></li>
+			<li><a href=#>Sudmenu 2</a></li>
+		</ul>
+	</li>
+	<li><a href=#>Menu 3</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 3</a></li>
+			<li><a href=#>Sudmenu 3</a></li>
+			<li><a href=#>Sudmenu 3</a></li>
+		</ul>
+	</li>
+	<li><a href=#>Menu 4</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 4</a></li>
+			<li><a href=#>Sudmenu 4</a></li>
+			<li><a href=#>Sudmenu 4</a></li>
+		</ul>
+	</li>
+	<li><a href=#>Menu 5</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+		</ul>
+	</li>
+</ul>
 
