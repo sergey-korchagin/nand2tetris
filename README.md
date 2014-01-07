@@ -3,13 +3,11 @@ nand2tetris
 
 nand2tetris solutions
 
-<strong> 
- <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex1>ex 1</a>
-</strong> 
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Main.jack>Main.jack</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Game.jack>Game.jack</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Ball.jack>Ball.jack</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Opponent.jack>Opponent.jack</a> </pre>
+
+<pre>  </pre>
+<pre> </pre>
+<pre>  </pre>
+<pre>  </pre>
 
 <strong> 
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex4>ex 4</a>
@@ -65,9 +63,10 @@ nand2tetris solutions
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex1>ex 1</a>
 </strong>
 		<ul class="submenu">
-			<li><a href=#>Sudmenu 1</a></li>
-			<li><a href=#>Sudmenu 1</a></li>
-			<li><a href=#>Sudmenu 1</a></li>
+	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Main.jack>Main.jack</a></li>
+	<li> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Game.jack>Game.jack</a></li>
+	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Ball.jack>Ball.jack</a></li>
+	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex1/Opponent.jack>Opponent.jack</a></li>
 		</ul>
 	</li>
 	<li><a href=#>Menu 2</a>
