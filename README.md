@@ -61,7 +61,9 @@ nand2tetris solutions
 
 
 <ul class="menu">
-	<li><a href=#>Menu 1</a>
+	<li><strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex1>ex 1</a>
+</strong>
 		<ul class="submenu">
 			<li><a href=#>Sudmenu 1</a></li>
 			<li><a href=#>Sudmenu 1</a></li>
