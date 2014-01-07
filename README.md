@@ -1,8 +1,5 @@
-Nand2Tetris solutions
-===========
-
-nand2tetris solutions
-
+Nand2Tetris Solutions
+=====================
 
 <strong> 
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex9>ex 9</a>
@@ -70,5 +67,22 @@ nand2tetris solutions
 			<li><a href=#>Sudmenu 5</a></li>
 		</ul>
 	</li>
+		</li>
+	<li><a href=#>Menu 5</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+		</ul>
+	</li>
+		</li>
+	<li><a href=#>Menu 5</a>
+		<ul class="submenu">
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+			<li><a href=#>Sudmenu 5</a></li>
+		</ul>
+	</li>
+	
 </ul>
 
