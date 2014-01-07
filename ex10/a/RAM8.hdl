@@ -1,0 +1,42 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/03/a/RAM8.hdl
+
+/**
+ * Memory of 8 registers, each 16 bit-wide. Out hold the value
+ * stored at the memory location specified by address. If load=1, then 
+ * the in value is loaded into the memory location specified by address 
+ * (the loaded value will be emitted to out after the next time step.)
+ */
+
+CHIP RAM8 {
+    IN in[16], load, address[3];
+    OUT out[16];
+
+    PARTS:
+    // Put your code here.
+	
+	Nand(a=address[2], b=address[2], out=outNS);
+	
+	Nand(a = outNS,  b = load, out = x);
+	Nand(a=x, b=x, out=out1);
+		
+	Nand(a = address[2],  b = load, out = x1);
+	Nand(a=x1, b=x1, out=out2);	
+
+    DMux4Way(in=out1, a=aRam, b=bRam, c=cRam, d=dRam, sel[0] = address[0], sel[1]=address[1]);
+    DMux4Way(in=out2, a=eRam, b=fRam, c=gRam, d=hRam, sel[0] = address[0], sel[1]=address[1]);
+	 
+     Register(in = in, load = aRam, out = aRamOut);
+     Register(in = in, load = bRam, out = bRamOut);
+     Register(in = in, load = cRam, out = cRamOut);
+     Register(in = in, load = dRam, out = dRamOut);
+     Register(in = in, load = eRam, out = eRamOut);
+     Register(in = in, load = fRam, out = fRamOut);
+     Register(in = in, load = gRam, out = gRamOut);
+     Register(in = in, load = hRam, out = hRamOut);
+	 
+	 
+     Mux8Way16(a = aRamOut, b = bRamOut, c = cRamOut, d = dRamOut, e = eRamOut, f = fRamOut, g = gRamOut, h = hRamOut, sel = address, out = out);
+}
