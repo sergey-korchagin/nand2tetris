@@ -1,27 +1,7 @@
-nand2tetris
+Nand2Tetris solutions
 ===========
 
 nand2tetris solutions
-
-
-
-<strong> 
- <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex8>ex 8</a>
-</strong> 
-
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And.hdl>And</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And16.hdl>And16</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux.hdl>DMux</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux4Way.hdl>DMux4Way</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux8Way.hdl>DMux8Way</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux4Way16.hdl>Mux4Way16</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux.hdl>Mux</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not.hdl>Not</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not16.hdl>Not16</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or.hdl>Or</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or16.hdl>Or16</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or8Way.hdl>Or8Way</a> </pre>
-<pre> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Xor.hdl>Xor</a> </pre>
 
 
 <strong> 
@@ -55,7 +35,7 @@ nand2tetris solutions
 	<li> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex4/chess/Sort.asm>Sort.asm</a> </li>
 		</ul>
 	</li>
-	<li><strong> 
+<li><strong> 
  <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex7>ex 7</a>
 </strong> 
 		<ul class="submenu">
@@ -65,11 +45,22 @@ nand2tetris solutions
 <li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex7/SymbolTable.java>SymbolTable</a> </li>
 		</ul>
 	</li>
-	<li><a href=#>Menu 4</a>
-		<ul class="submenu">
-			<li><a href=#>Sudmenu 4</a></li>
-			<li><a href=#>Sudmenu 4</a></li>
-			<li><a href=#>Sudmenu 4</a></li>
+<li><strong> 
+ <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex8>ex 8</a>
+</strong> 
+		<ul class="submenu">                                                                             	<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And.hdl>And</a> </li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/And16.hdl>And16</a> </li>
+<li> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux.hdl>DMux</a> </li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux4Way.hdl>DMux4Way</a> </li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/DMux8Way.hdl>DMux8Way</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux4Way16.hdl>Mux4Way16</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Mux.hdl>Mux</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not.hdl>Not</a></li>
+<li> <a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Not16.hdl>Not16</a> </li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or.hdl>Or</a> </li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or16.hdl>Or16</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Or8Way.hdl>Or8Way</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/blob/master/ex8/Xor.hdl>Xor</a></li>
 		</ul>
 	</li>
 	<li><a href=#>Menu 5</a>
