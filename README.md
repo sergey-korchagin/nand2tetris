@@ -64,12 +64,13 @@ Nand2Tetris Solutions
 <li><strong> 
 <a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10>ex 10</a>
 </strong>
-		<ul class="submenu">
-			<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/a>a</a></li>
-			<li><a href=#>Sudmenu 5</a></li>
-			<li><a href=#>Sudmenu 5</a></li>
-		</ul>
-	</li>
+<ul class="submenu">
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/a>a</a></li>
+<li><a href=https://github.com/sergey-korchagin/nand2tetris/tree/master/ex10/b>b</a></li>
+</ul></li>
+
+
+
 	
 </ul>
 
